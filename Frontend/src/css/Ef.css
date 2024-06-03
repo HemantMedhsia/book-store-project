@@ -1,0 +1,10 @@
+#maindiv {
+    background:  #EEF7FF;
+    color: #4D869C;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }

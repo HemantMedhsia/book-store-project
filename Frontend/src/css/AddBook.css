@@ -1,0 +1,19 @@
+.student-form-container {
+    background-color: #EEF7FF;
+    height: 70vh;
+    /* width: 70vw; */
+    /* position: relative; */
+    /* left:25%; */
+}
+
+.student-form{
+    background-color: #CDE8E5;
+}
+
+.btn {
+    background-color: #4D869C !important;
+}
+
+.btn:hover {
+    background-color: #7AB2B2;
+}

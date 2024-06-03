@@ -1,0 +1,86 @@
+.book-card {
+    background-color: #CDE8E5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 300px !important;
+    margin: 16px;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.book-image {
+    width: 100%;
+    height: auto;
+}
+
+.book-details {
+    padding: 16px;
+}
+
+.book-title {
+    font-size: 1.9em;
+    font-family: cursive;
+    color: #333;
+    padding: 20px;
+}
+
+.book-author {
+    font-size: 1em;
+    margin: 0;
+    margin-left: 70px;
+    color: #666;
+}
+
+.btn-open {
+    display: block;
+    text-align: center;
+    padding: 12px 0;
+    background-color: #4D869C;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.btn-open:hover {
+    background-color: #7AB2B2;
+}
+
+.book-actions {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    border-top: 1px solid #eee;
+    background-color: #CDE8E5;
+}
+
+.btn-link {
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.btn-edit {
+    background-color: #4D869C;
+    color: #fff;
+    width: 48%;
+}
+
+.btn-edit:hover {
+    background-color: #CDE8E5;
+}
+
+.btn-delete {
+    background-color: #4D869C;
+    color: #fff;
+    width: 48%;
+}
+
+.btn-delete:hover {
+    background-color: #CDE8E5;
+}
